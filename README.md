@@ -10,10 +10,10 @@ Repositorio para el desarrollo de una aplicación (shiny) para conectar a los ci
 
 # Crédito 
 
-"Esta iniciativa es voluntaria y ciudadana. La plataforma fue iniciada por José Incio (twiiter: jlinico).
-Cualquier problema o error me escriben a jincio@gmail.com.
-
-La programación de este app en shiny se la debemos escencialmente a la genia de  Malena Maguina" "https://twitter.com/malena_maguina"
+- "Esta iniciativa es voluntaria y ciudadana. La plataforma fue iniciada por José Incio (twiiter: jlinico).
+- Cualquier problema o error me escriben a jincio@gmail.com.
+- La programación de este app en shiny se la debemos escencialmente a la genia de  [Malena Maguina](https://twitter.com/malena_maguina)
+- Gracias [Kristian López](https://twitter.com/klo_pez) que nos brindo la información pudimos agregar las cuentas de twitter de los congresistas. 
 
 # Desarrollo en otro lenguaje
 
