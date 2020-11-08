@@ -83,7 +83,7 @@ mp_salida <- function(){
   mp <- shiny::mainPanel(
     shiny::h4("Los congresistas de tu región"),
     tableOutput("table2"),
-    shiny::h4("Más votado en tu distrito", class ="alert"),
+    shiny::h4("Congresista más votado en tu distrito", class ="alert"),
     tableOutput("table1"),
     shiny::h4("Mensaje: copia el texto y mándalo desde tu correo"),
     tags$div(shiny::htmlOutput("encabezado2"),tags$br(),
@@ -124,7 +124,9 @@ tp_creditos <- function(){
   tp <- tabPanel("Creditos",
                  p("Esta iniciativa es voluntaria y ciudadana.","Esta plataforma fue iniciada por",
                    a(href = "http://www.joseincio.com", "José Incio"),"Cualquier problema o error me escriben a jincio@gmail.com.","La programación se la debemos escencialmente a 
-      la genia de Malena Maguina",a(href = "https://twitter.com/malena_maguina", "Twitter"))
+      la genia de Malena Maguina",a(href = "https://twitter.com/malena_maguina", "Twitter."), 
+      "Gracias a",a(href = "https://twitter.com/klo_pez", "Krisian López"), "que nos proporcionó la información con la que pudimos habilitar la opción de Twitter")
+      
   )
   return(tp)
 }
